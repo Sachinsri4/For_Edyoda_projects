@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+ body {
+   font-family: sans-serif;
+   margin: 0;
+ }
+
+ header{
+   display: flex;
+   width: 100%;
+   height: 20vh;
+ }
+
+ header img{
+   width : 150px;
+   height: 60px;
+   display: block;
+   margin: 20px 0 0 50px;
+ }
+header nav {
+  margin-left: 25%;
+  margin-top: -20px;
+  display: flex;
+  width: 50vh;
+  align-items: center;
+  justify-content: space-around;
+}
+ header a{
+   display: inline;
+   color: black;
+   text-decoration: none;
+ }
+
+ #active{
+   font-weight: bolder;
+   border-bottom: 4px solid blue;
+   padding: 8px 0 5px 0;
+ }
+
+ header button{
+   position:absolute ;
+   right: 3%;
+   padding: 0 20px 0 20px;
+   height: 55px;
+   border: none;
+   background-color: pink;
+   border-radius: 20px;
+   color: blue;
+   margin-top: 30px;
+   left: 1100px;
+   
+   
+   justify-content: space-around;
+ }
+.full-pic{
+  display: inline;
+  height: 80%;
+  position: absolute;
+  right: 2%;
+  left: 710px;
+  top : 25%;
+ 
+  
+}
+.left-content{
+  width: 50%;
+  margin:-30px 0 0 100px;
+  align-content: flex-end;
+
+}
+.content{
+  font-size:55px;
+}
+
+.para{
+  line-height: 25px;
+  margin: -15px 0 30px 0;
+}
+.bottom-content button{
+  font-size:20px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background-color: blue;
+  height: 55px;
+  padding: 0 20px 0 20px;
+}
+.bottom-content img{
+  display: inline;
+  border: none
+
+}
+
+.bottom-content{
+  width: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+
+.list{
+  margin: 60px 0 0 20px;
+  vertical-align: middle;
+ 
+}
+
+.list .list-item{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 40px;
+  margin: 10px 0 10px 0;
+}
+
+.list .list-item p{
+  display: inline;
+}
+
+
+.list-item div{
+  height: 10px;
+  width: 20px;
+  background-color: grey;
+  border-radius: 5px;
+}
+.list a:hover {
+  background-color:rgb(221, 207, 207);
+}
